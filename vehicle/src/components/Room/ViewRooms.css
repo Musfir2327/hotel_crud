@@ -1,0 +1,109 @@
+/* Container for the ViewRooms page */
+.view-rooms-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table Header Styling */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Table Data Styling */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Table Row Styling for Alternating Backgrounds */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Action Buttons Column */
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Adds space between the buttons */
+}
+
+/* Update Button Styling */
+.update-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Delete Button Styling */
+.delete-btn {
+  background-color: #dc3545; /* Red */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .view-rooms-container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}

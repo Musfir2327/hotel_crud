@@ -1,0 +1,38 @@
+.car-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between each car card */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; /* Adjust the height as necessary */
+}
+
+.car-card {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #ddd; /* Add a border around each car card */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* White background for each card */
+}
+
+.car-image {
+    max-width: 100%; /* Ensure images fit well */
+}
+
+.car-image img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.car-details {
+    padding-left: 20px; /* Space between image and details */
+}
+
+.button-group {
+    margin-top: 10px; /* Space above the buttons */
+}
+
+h3 {
+    margin: 0; /* Remove default margin */
+}

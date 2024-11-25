@@ -1,0 +1,53 @@
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust sidebar width */
+    height: 100%;
+    background-color: rgba(9, 32, 122, 0.8); /* Dark transparent background */
+    color: #fff;
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for visibility toggle */
+    z-index: 1000; /* Ensure the sidebar appears above other content */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.hidden {
+    transform: translateX(-100%); /* Slide out of view */
+}
+
+.sidebar.visible {
+    transform: translateX(0); /* Slide into view */
+}
+
+/* Sidebar brand */
+.sidebar-brand {
+    font-size: 1.2rem; /* Adjusted font size for a less bulky look */
+    padding: 10px; /* Added padding for spacing */
+    color: #ffffff;
+    text-align: center; /* Center the brand text */
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Divider under the brand */
+}
+
+/* Menu items */
+.sidebar-menu {
+    margin-top: 20px; /* Add some spacing between sections */
+}
+
+.sidebar-link {
+    display: block;
+    padding: 12px 20px; /* Reduced padding for compact design */
+    color: #ddd; /* Slightly lighter color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9rem; /* Smaller font size for neatness */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Divider for each item */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+}
+
+.sidebar-link:hover {
+    background-color: #495057; /* Slightly lighter gray on hover */
+    color: #fff; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}

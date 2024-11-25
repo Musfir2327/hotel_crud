@@ -1,0 +1,160 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("C:\Users\MOHAMMED MUSFIR\Downloads\HotelReg-Akash (2)\HotelReg-Akash\vehicle\src\components\images\hotel.jpg");
+  
+  background-size: 2500px;  
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #300aab;  /* Match the table header color */
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #d8f821;  /* Green on hover */
+}
+
+
+h2, h3 {
+  text-align: center;
+  color: #050505;
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #820c0c;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"], 
+input[type="number"], 
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #000000;
+}
+
+th {
+  background-color: #300aab;
+  color: white;
+}
+
+tr {
+  background-color: #f1f1f1;
+  color: #000000;
+  font-size:large;
+  
+}
+
+
+
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+button.update {
+  background-color: #0cb628;  
+  border-radius: 5px;
+  
+}
+
+button.update:hover {
+  background-color: #45a049;  
+}
+
+button.delete {
+  background-color: #ab1208; 
+  border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+  
+}
+
+button.delete:hover {
+  background-color: #d32f2f;  
+}
+
+img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,90 @@
+/* Dashboard.css */
+
+/* General container styling */
+.container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Center-align the table heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333; /* Neutral text color */
+    font-weight: 700;
+}
+
+/* Table styling */
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+}
+
+/* Table headers */
+table thead th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    text-align: left;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Table rows */
+table tbody tr {
+    border-bottom: 1px solid #ddd; /* Light gray borders */
+}
+
+/* Table row hover effect */
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray hover effect */
+}
+
+/* Table cells */
+table td {
+    padding: 10px;
+    font-size: 0.95rem;
+    color: #555; /* Subtle text color */
+}
+
+/* Button styling */
+button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    opacity: 0.9; /* Slight opacity change on hover */
+}
+
+/* Secondary button styling */
+button.btn-outline-secondary {
+    border: 1px solid #6c757d; /* Border matching secondary color */
+    color: #6c757d; /* Text matching secondary color */
+}
+
+button.btn-outline-secondary:hover {
+    background-color: #6c757d; /* Fill with secondary color */
+    color: #fff; /* White text */
+}
+
+/* Danger button styling */
+button.btn-outline-danger {
+    border: 1px solid #dc3545; /* Border matching danger color */
+    color: #dc3545; /* Text matching danger color */
+}
+
+button.btn-outline-danger:hover {
+    background-color: #dc3545; /* Fill with danger color */
+    color: #fff; /* White text */
+}

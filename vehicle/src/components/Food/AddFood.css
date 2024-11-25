@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcf5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url("C:\Users\MOHAMMED MUSFIR\Downloads\HotelReg-Akash (2)\HotelReg-Akash\vehicle\src\components\images\hotel.jpg");
+
+  background-size: 2500px;  
+  background-position: center;  
+  background-repeat: no-repeat;
+  
+  
+}
+
+
+
+
+h2, h3 {
+  text-align: center;
+  color: #040404;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  
+}
+
+form {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"], 
+input[type="number"], 
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #300aab;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #7251f4;
+  
+}
+
+
+

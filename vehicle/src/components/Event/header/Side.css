@@ -1,0 +1,53 @@
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Reduced width for a sleeker look */
+    height: 100%;
+    background-color: #343a40; /* Dark gray background */
+    color: #fff;
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for visibility toggle */
+    z-index: 1000; /* Ensure the sidebar appears above other content */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Add subtle shadow for depth */
+}
+
+.sidebar.hidden {
+    transform: translateX(-100%); /* Slide out of view */
+}
+
+.sidebar.visible {
+    transform: translateX(0); /* Slide into view */
+}
+
+.sidebar-brand {
+    font-size: 1.2rem; /* Adjusted font size for a less bulky look */
+    padding: 15px; /* Added padding for spacing */
+    color: #fff;
+    text-align: center; /* Center the brand text */
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Divider under the brand */
+}
+
+.nav-link {
+    color: #ddd; /* Slightly lighter color for links */
+    padding: 12px 20px; /* Reduced padding for compact design */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure full width is clickable */
+    font-size: 0.9rem; /* Smaller font size for neatness */
+}
+
+.nav-link:hover {
+    background-color: #495057; /* Slightly lighter gray on hover */
+    color: #fff; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+.nav {
+    margin-top: 10px; /* Add spacing at the top */
+}
+
+.nav-item {
+    margin-bottom: 5px; /* Add spacing between items */
+}

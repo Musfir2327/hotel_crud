@@ -1,0 +1,59 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff !important; /* Primary blue background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+    display: flex;
+    justify-content: center; /* Center all content */
+}
+
+/* Navbar Brand Styling */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0a3871 !important; /* Dark blue text */
+    text-decoration: none;
+    text-align: center; /* Ensure text alignment in the center */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #0056b3 !important; /* Slightly lighter dark blue on hover */
+}
+
+/* Navbar Links Styling (Dark Links) */
+.nav-link {
+    font-size: 1.1rem;
+    color: #343a40 !important; /* Dark gray color for links */
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Slightly lighter dark blue on hover */
+}
+
+/* Align Links to the Right */
+.nav {
+    margin-left: auto; /* Push links to the right */
+}
+
+/* Responsive Navbar Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+}

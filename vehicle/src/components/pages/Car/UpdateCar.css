@@ -1,0 +1,48 @@
+.center-form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:125vh;
+    
+}
+
+.center-form-Form{
+    max-width: 50px;
+    width: 100%;
+    padding: 20px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.center-form Form .form-control{
+margin-bottom: 20px;
+padding:10px;
+width:100%;
+}
+
+.center-form .select-container {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.image-preview-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #ccc;
+}
+
+.center-form {
+    max-width: 500px;
+    margin: 0 auto
+}
